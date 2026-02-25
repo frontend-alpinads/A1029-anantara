@@ -125,7 +125,7 @@ export const TECHNICAL_CONFIG = {
   projectId: "A1029",
 
   urls: {
-    production: "https://example.com",
+    production: "https://offers.anantara.com",
     staging: "",
   },
 
@@ -134,10 +134,10 @@ export const TECHNICAL_CONFIG = {
   },
 
   email: {
-    from: "noreply@example.com",
+    from: "noreply@anantara.com",
     replyTo: "info@anantara.com",
-    transactional: "anantarahotelsresortsspa@updates.example.com",
-    assetsBaseUrl: "https://example.com",
+    transactional: "anantarahotelsresortsspa@updates.anantara.com",
+    assetsBaseUrl: "https://offers.anantara.com",
   },
 
   credits: {
@@ -150,7 +150,7 @@ export const TECHNICAL_CONFIG = {
 // SEO_CONFIG - Metadata for all languages
 // ============================================
 export const SEO_CONFIG = {
-  baseUrl: "https://example.com",
+  baseUrl: "https://offers.anantara.com",
   ogImage: "/placeholder.svg",
 
   home: {
