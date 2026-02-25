@@ -1,30 +1,54 @@
 {
   "$schema": "../variant-spec.schema.json",
   "sectionVariants": [
-    { "hero": "v12" },
-    { "about": "v4" },
-    { "features": "v1" },
-    { "offers": "v1" },
-    { "rooms": "v6" },
-    { "gallery": "v5" },
-    { "testimonials": "v6" },
-    { "faqs": "v1" },
-    { "enquiry": "v1" },
-    { "footer": "v2" }
+    {
+      "hero": "v12"
+    },
+    {
+      "about": "v4"
+    },
+    {
+      "features": "v1"
+    },
+    {
+      "offers": "v1"
+    },
+    {
+      "rooms": "v6"
+    },
+    {
+      "gallery": "v5"
+    },
+    {
+      "testimonials": "v6"
+    },
+    {
+      "faqs": "v1"
+    },
+    {
+      "enquiry": "v1"
+    },
+    {
+      "footer": "v2"
+    }
   ],
   "content": {
     "hero": {
       "title": {
-        "de": "Urlaub in Südtirol",
-        "en": "Holiday in South Tyrol",
-        "it": "Vacanza in Alto Adige"
+        "de": "Luxuriöse Resorts & Spa-Erlebnisse",
+        "en": "Luxury Resorts & Spa Experiences",
+        "it": "Resort di Lusso & Esperienze Spa"
       },
       "subtitle": {
-        "de": "Willkommen in unserem Hotel in den Dolomiten. Genießen Sie atemberaubende Berglandschaften, erstklassigen Service und unvergessliche Momente der Entspannung.",
-        "en": "Welcome to our hotel in the Dolomites. Enjoy breathtaking mountain landscapes, first-class service and unforgettable moments of relaxation.",
-        "it": "Benvenuti nel nostro hotel nelle Dolomiti. Godetevi paesaggi montani mozzafiato, servizio di prima classe e momenti di relax indimenticabili."
+        "de": "Entdecken Sie außergewöhnliche Reiseziele an den schönsten Orten der Welt",
+        "en": "Discover exceptional destinations in the world's most beautiful locations",
+        "it": "Scopri destinazioni eccezionali nei luoghi più belli del mondo"
       },
-      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "images": [
+        "/placeholder.svg",
+        "/placeholder.svg",
+        "/placeholder.svg"
+      ],
       "bookingForm": {
         "arrivalDeparture": {
           "de": "Datum wählen",
@@ -79,27 +103,21 @@
     },
     "about": {
       "badge": {
-        "de": "Willkommen",
-        "en": "Welcome",
-        "it": "Benvenuti"
+        "de": "Über uns",
+        "en": "About Us",
+        "it": "Chi Siamo"
       },
       "title": {
-        "de": "Unser Hotel",
-        "en": "Our Hotel",
-        "it": "Il Nostro Hotel"
+        "de": "Luxuriöse Resorts an außergewöhnlichen Orten",
+        "en": "Luxury Resorts in Exceptional Locations",
+        "it": "Resort di Lusso in Luoghi Eccezionali"
       },
       "description": {
-        "de": "Unser Hotel verbindet Tradition mit modernem Komfort. Eingebettet in die malerische Landschaft Südtirols, bieten wir Ihnen eine Oase der Ruhe und Entspannung. Genießen Sie großzügige Räumlichkeiten, erstklassigen Service und eine herzliche Atmosphäre.",
-        "en": "Our hotel combines tradition with modern comfort. Nestled in the picturesque landscape of South Tyrol, we offer you an oasis of peace and relaxation. Enjoy spacious rooms, first-class service and a warm atmosphere.",
-        "it": "Il nostro hotel unisce tradizione e comfort moderno. Immerso nel pittoresco paesaggio dell'Alto Adige, vi offriamo un'oasi di pace e relax. Godetevi spazi ampi, servizio di prima classe e un'atmosfera accogliente."
+        "de": "Anantara bietet luxuriöse Resorts und Spa-Erlebnisse an den schönsten Reisezielen der Welt. Von exotischen Stränden bis zu historischen Städten – jedes Resort verbindet lokale Kultur mit weltklasse Service und außergewöhnlichem Komfort. Erleben Sie unvergessliche Momente in eleganten Suiten, genießen Sie exquisite Küche und lassen Sie sich in unseren preisgekrönten Spas verwöhnen.",
+        "en": "Anantara offers luxury resorts and spa experiences in the world's most beautiful destinations. From exotic beaches to historic cities – each resort combines local culture with world-class service and exceptional comfort. Experience unforgettable moments in elegant suites, enjoy exquisite cuisine, and indulge in our award-winning spas.",
+        "it": "Anantara offre resort di lusso ed esperienze spa nelle destinazioni più belle del mondo. Da spiagge esotiche a città storiche – ogni resort combina la cultura locale con un servizio di classe mondiale e un comfort eccezionale. Vivete momenti indimenticabili in suite eleganti, gustate una cucina raffinata e viziatevi nelle nostre spa pluripremiate."
       },
       "images": [
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
         "/placeholder.svg",
         "/placeholder.svg",
         "/placeholder.svg"
@@ -107,62 +125,76 @@
     },
     "features": {
       "badge": {
-        "de": "Ihre Urlaubs-Highlights",
-        "en": "Your Holiday Highlights",
-        "it": "I Vostri Lussi"
+        "de": "Unsere Services",
+        "en": "Our Services",
+        "it": "I Nostri Servizi"
       },
       "title": {
-        "de": "Hochwertig, persönlich, natürlich",
-        "en": "High-quality, personalised, natural",
-        "it": "Qualità, intimità, naturalità"
+        "de": "Exklusive Erlebnisse & Weltklasse-Service",
+        "en": "Exclusive Experiences & World-Class Service",
+        "it": "Esperienze Esclusive & Servizio di Classe Mondiale"
       },
       "description": {
-        "de": "Erleben Sie unvergessliche Momente in Südtirol. Wandern, Skifahren, Wellness und kulinarische Genüsse erwarten Sie in einer der schönsten Regionen der Alpen.",
-        "en": "Experience unforgettable moments in South Tyrol. Hiking, skiing, wellness and culinary delights await you in one of the most beautiful regions of the Alps.",
-        "it": "Vivete momenti indimenticabili in Alto Adige. Escursioni, sci, wellness e delizie culinarie vi aspettano in una delle regioni più belle delle Alpi."
+        "de": "Entdecken Sie die außergewöhnlichen Annehmlichkeiten und Services, die Ihren Aufenthalt unvergesslich machen",
+        "en": "Discover the exceptional amenities and services that make your stay unforgettable",
+        "it": "Scopri i servizi eccezionali che rendono il tuo soggiorno indimenticabile"
       },
       "items": [
         {
           "title": {
-            "de": "Restaurant & Terrasse",
-            "en": "Restaurant & Terrace",
-            "it": "Ristorante & Terrazza"
+            "de": "Gourmet-Dining",
+            "en": "Gourmet Dining",
+            "it": "Ristorazione Gourmet"
           },
           "description": {
-            "de": "Genießen Sie regionale Spezialitäten und internationale Küche auf unserer Sonnenterrasse mit Blick auf die Berge.",
-            "en": "Enjoy regional specialities and international cuisine on our sun terrace with mountain views.",
-            "it": "Gustate specialità regionali e cucina internazionale sulla nostra terrazza soleggiata con vista sulle montagne."
+            "de": "Exquisite Küche von preisgekrönten Chefs mit lokalen und internationalen Spezialitäten",
+            "en": "Exquisite cuisine by award-winning chefs featuring local and international specialties",
+            "it": "Cucina raffinata di chef pluripremiati con specialità locali e internazionali"
           },
           "imageSrc": "/placeholder.svg",
           "iconName": "ForkKnifeIcon"
         },
         {
           "title": {
-            "de": "Wellness & Spa",
-            "en": "Wellness & Spa",
-            "it": "Wellness & Spa"
+            "de": "Luxus-Spa & Wellness",
+            "en": "Luxury Spa & Wellness",
+            "it": "Spa & Wellness di Lusso"
           },
           "description": {
-            "de": "Entspannen Sie in unserem Wellnessbereich mit Sauna, Dampfbad und Behandlungsräumen.",
-            "en": "Relax in our wellness area with sauna, steam bath and treatment rooms.",
-            "it": "Rilassatevi nella nostra area wellness con sauna, bagno turco e sale trattamenti."
+            "de": "Preisgekrönte Spas mit traditionellen Behandlungen und modernsten Wellness-Einrichtungen",
+            "en": "Award-winning spas with traditional treatments and state-of-the-art wellness facilities",
+            "it": "Spa pluripremiate con trattamenti tradizionali e strutture benessere all'avanguardia"
           },
           "imageSrc": "/placeholder.svg",
           "iconName": "FlowerLotusIcon"
         },
         {
           "title": {
-            "de": "Bergerlebnis",
-            "en": "Mountain Experience",
-            "it": "Esperienza Montana"
+            "de": "Infinity Pools",
+            "en": "Infinity Pools",
+            "it": "Piscine a Sfioro"
           },
           "description": {
-            "de": "Entdecken Sie die Dolomiten mit geführten Wanderungen, Skifahren und vielen weiteren Aktivitäten.",
-            "en": "Discover the Dolomites with guided hikes, skiing and many other activities.",
-            "it": "Scoprite le Dolomiti con escursioni guidate, sci e tante altre attività."
+            "de": "Spektakuläre Infinity-Pools mit atemberaubenden Ausblicken auf die Umgebung",
+            "en": "Spectacular infinity pools with breathtaking views of the surroundings",
+            "it": "Piscine a sfioro spettacolari con viste mozzafiato sui dintorni"
           },
           "imageSrc": "/placeholder.svg",
-          "iconName": "MountainIcon"
+          "iconName": "PoolIcon"
+        },
+        {
+          "title": {
+            "de": "Kulturelle Erlebnisse",
+            "en": "Cultural Experiences",
+            "it": "Esperienze Culturali"
+          },
+          "description": {
+            "de": "Authentische lokale Erlebnisse und Ausflüge zu den kulturellen Highlights der Region",
+            "en": "Authentic local experiences and excursions to the region's cultural highlights",
+            "it": "Esperienze locali autentiche ed escursioni ai luoghi culturali della regione"
+          },
+          "imageSrc": "/placeholder.svg",
+          "iconName": "StarIcon"
         }
       ]
     },
@@ -173,14 +205,14 @@
         "it": "Impressioni"
       },
       "title": {
-        "de": "Entdecken Sie unser Hotel",
-        "en": "Discover Our Hotel",
-        "it": "Scoprite il Nostro Hotel"
+        "de": "Unsere Bildergalerie",
+        "en": "Our Image Gallery",
+        "it": "La Nostra Galleria"
       },
       "description": {
-        "de": "Werfen Sie einen Blick auf unsere Zimmer, den Wellnessbereich, das Restaurant und die atemberaubende Umgebung in den Dolomiten.",
-        "en": "Take a look at our rooms, wellness area, restaurant and the stunning surroundings in the Dolomites.",
-        "it": "Date un'occhiata alle nostre camere, all'area wellness, al ristorante e allo splendido paesaggio delle Dolomiti."
+        "de": "Tauchen Sie ein in die Welt von Anantara und lassen Sie sich von unseren luxuriösen Resorts inspirieren",
+        "en": "Immerse yourself in the world of Anantara and be inspired by our luxury resorts",
+        "it": "Immergiti nel mondo di Anantara e lasciati ispirare dai nostri resort di lusso"
       },
       "viewAll": {
         "de": "Alle Fotos ansehen",
@@ -193,10 +225,10 @@
           "en": "All",
           "it": "Tutte"
         },
-        "apartments-suites": {
-          "de": "Apartments & Suites",
-          "en": "Apartments & Suites",
-          "it": "Appartamenti & Suite"
+        "rooms": {
+          "de": "Zimmer",
+          "en": "Rooms",
+          "it": "Camere"
         },
         "wellness": {
           "de": "Wellness",
@@ -204,9 +236,9 @@
           "it": "Wellness"
         },
         "cuisine": {
-          "de": "Frühstück & Genuss",
-          "en": "Breakfast & Enjoyment",
-          "it": "Colazione & Piacere"
+          "de": "Küche",
+          "en": "Cuisine",
+          "it": "Cucina"
         },
         "experiences": {
           "de": "Erlebnisse",
@@ -215,10 +247,22 @@
         }
       },
       "categories": {
-        "apartments-suites": "apartments-suites",
+        "rooms": "rooms",
         "wellness": "wellness",
         "cuisine": "cuisine",
         "experiences": "experiences"
+      },
+      "popup": {
+        "title": {
+          "de": "Galerie",
+          "en": "Gallery",
+          "it": "Galleria"
+        },
+        "closeSrLabel": {
+          "de": "Galerie schließen",
+          "en": "Close gallery",
+          "it": "Chiudi galleria"
+        }
       },
       "highlightImages": {
         "desktop": [
@@ -238,97 +282,76 @@
           "/placeholder.svg"
         ]
       },
-      "popup": {
-        "title": {
-          "de": "Galerie",
-          "en": "Gallery",
-          "it": "Galleria"
-        },
-        "closeSrLabel": {
-          "de": "Galerie schließen",
-          "en": "Close gallery",
-          "it": "Chiudi galleria"
-        }
-      },
       "images": [
         {
           "src": "/placeholder.svg",
           "alt": {
-            "de": "Hotel Außenansicht",
-            "en": "Hotel exterior",
-            "it": "Esterno dell'hotel"
+            "de": "Luxuriöse Suite mit Meerblick",
+            "en": "Luxury Suite with Ocean View",
+            "it": "Suite di Lusso con Vista Mare"
           },
-          "category": "other"
+          "category": "rooms"
         },
         {
           "src": "/placeholder.svg",
           "alt": {
-            "de": "Zimmer 1",
-            "en": "Room 1",
-            "it": "Camera 1"
+            "de": "Elegantes Schlafzimmer",
+            "en": "Elegant Bedroom",
+            "it": "Camera da Letto Elegante"
           },
-          "category": "apartments-suites"
+          "category": "rooms"
         },
         {
           "src": "/placeholder.svg",
           "alt": {
-            "de": "Zimmer 2",
-            "en": "Room 2",
-            "it": "Camera 2"
-          },
-          "category": "apartments-suites"
-        },
-        {
-          "src": "/placeholder.svg",
-          "alt": {
-            "de": "Wellness 1",
-            "en": "Wellness 1",
-            "it": "Wellness 1"
+            "de": "Spa Behandlungsraum",
+            "en": "Spa Treatment Room",
+            "it": "Sala Trattamenti Spa"
           },
           "category": "wellness"
         },
         {
           "src": "/placeholder.svg",
           "alt": {
-            "de": "Wellness 2",
-            "en": "Wellness 2",
-            "it": "Wellness 2"
+            "de": "Infinity Pool bei Sonnenuntergang",
+            "en": "Infinity Pool at Sunset",
+            "it": "Piscina a Sfioro al Tramonto"
           },
           "category": "wellness"
         },
         {
           "src": "/placeholder.svg",
           "alt": {
-            "de": "Restaurant 1",
-            "en": "Restaurant 1",
-            "it": "Ristorante 1"
+            "de": "Gourmet Restaurant",
+            "en": "Gourmet Restaurant",
+            "it": "Ristorante Gourmet"
           },
           "category": "cuisine"
         },
         {
           "src": "/placeholder.svg",
           "alt": {
-            "de": "Restaurant 2",
-            "en": "Restaurant 2",
-            "it": "Ristorante 2"
+            "de": "Exquisite Speisen",
+            "en": "Exquisite Dishes",
+            "it": "Piatti Raffinati"
           },
           "category": "cuisine"
         },
         {
           "src": "/placeholder.svg",
           "alt": {
-            "de": "Erlebnisse 1",
-            "en": "Experiences 1",
-            "it": "Esperienze 1"
+            "de": "Kulturelle Ausflüge",
+            "en": "Cultural Excursions",
+            "it": "Escursioni Culturali"
           },
           "category": "experiences"
         },
         {
           "src": "/placeholder.svg",
           "alt": {
-            "de": "Erlebnisse 2",
-            "en": "Experiences 2",
-            "it": "Esperienze 2"
+            "de": "Lokale Erlebnisse",
+            "en": "Local Experiences",
+            "it": "Esperienze Locali"
           },
           "category": "experiences"
         }
@@ -341,14 +364,14 @@
         "it": "La Vostra Richiesta"
       },
       "title": {
-        "de": "Ihr perfekter Urlaub beginnt hier...",
-        "en": "Your Perfect Holiday Starts Here...",
-        "it": "La vostra vacanza perfetta inizia qui..."
+        "de": "Kontaktieren Sie uns",
+        "en": "Contact Us",
+        "it": "Contattateci"
       },
       "description": {
-        "de": "Wir freuen uns auf Ihre Anfrage! Unser Team berät Sie gerne persönlich und erstellt Ihnen ein individuelles Angebot für Ihren Traumurlaub in Südtirol.",
-        "en": "We look forward to your enquiry! Our team will be happy to advise you personally and create a customised offer for your dream holiday in South Tyrol.",
-        "it": "Non vediamo l'ora di ricevere la vostra richiesta! Il nostro team sarà lieto di consigliarvi personalmente e creare un'offerta personalizzata per la vostra vacanza da sogno in Alto Adige."
+        "de": "Wir helfen Ihnen gerne bei der Planung Ihres perfekten Aufenthalts",
+        "en": "We are happy to help you plan your perfect stay",
+        "it": "Siamo lieti di aiutarvi a pianificare il vostro soggiorno perfetto"
       },
       "backgroundImage": "/placeholder.svg",
       "form": {
@@ -458,9 +481,9 @@
           "it": "*Accetto l'informativa sulla privacy"
         },
         "responseTime": {
-          "de": "Wir melden uns innerhalb von 24 Stunden mit Ihrem persönlichen Angebot – wir freuen uns auf Sie!",
-          "en": "We will respond within 24 hours with your personalised offer – we look forward to welcoming you!",
-          "it": "Risponderemo entro 24 ore con la vostra offerta personalizzata – non vediamo l'ora di accogliervi!"
+          "de": "Wir melden uns innerhalb von 24 Stunden mit Ihrem persönlichen Angebot",
+          "en": "We will respond within 24 hours with your personalised offer",
+          "it": "Risponderemo entro 24 ore con la vostra offerta personalizzata"
         },
         "submit": {
           "de": "Jetzt Verfügbarkeit prüfen",
@@ -491,9 +514,9 @@
         "it": "Cosa Dicono i Nostri Ospiti"
       },
       "description": {
-        "de": "Unsere Gäste schätzen die herzliche Atmosphäre, den erstklassigen Service und die atemberaubende Lage in den Dolomiten. Lesen Sie, was andere über ihren Aufenthalt bei uns berichten.",
-        "en": "Our guests appreciate the warm atmosphere, first-class service and stunning location in the Dolomites. Read what others have to say about their stay with us.",
-        "it": "I nostri ospiti apprezzano l'atmosfera calorosa, il servizio di prima classe e la posizione mozzafiato nelle Dolomiti. Leggete cosa dicono gli altri del loro soggiorno da noi."
+        "de": "Erfahren Sie, warum Gäste aus aller Welt Anantara für unvergessliche Urlaubserlebnisse wählen",
+        "en": "Discover why guests from around the world choose Anantara for unforgettable vacation experiences",
+        "it": "Scopri perché gli ospiti di tutto il mondo scelgono Anantara per esperienze di vacanza indimenticabili"
       },
       "image": "/placeholder.svg"
     },
@@ -504,14 +527,14 @@
         "it": "Buono a Sapersi"
       },
       "title": {
-        "de": "Häufige Fragen",
+        "de": "Häufig gestellte Fragen",
         "en": "Frequently Asked Questions",
-        "it": "Domande frequenti"
+        "it": "Domande Frequenti"
       },
       "description": {
-        "de": "Hier finden Sie Antworten auf die häufigsten Fragen zu Ihrem Aufenthalt. Bei weiteren Fragen steht Ihnen unser Team gerne zur Verfügung.",
-        "en": "Here you will find answers to the most common questions about your stay. If you have any further questions, our team will be happy to help.",
-        "it": "Qui troverete le risposte alle domande più frequenti sul vostro soggiorno. Per ulteriori domande, il nostro team sarà lieto di aiutarvi."
+        "de": "Hier finden Sie Antworten auf die wichtigsten Fragen zu Ihrem Aufenthalt",
+        "en": "Find answers to the most important questions about your stay",
+        "it": "Trova le risposte alle domande più importanti sul tuo soggiorno"
       }
     },
     "offers": {
@@ -521,14 +544,14 @@
         "it": "Offerte"
       },
       "title": {
-        "de": "Unsere aktuellen Angebote",
-        "en": "Our Current Offers",
-        "it": "Le Nostre Offerte Attuali"
+        "de": "Exklusive Angebote & Packages",
+        "en": "Exclusive Offers & Packages",
+        "it": "Offerte Esclusive & Pacchetti"
       },
       "description": {
-        "de": "Entdecken Sie unsere saisonalen Angebote für Ihren perfekten Urlaub in Südtirol – ob Wellness, Wandern, Skifahren oder kulinarische Erlebnisse.",
-        "en": "Discover our seasonal offers for your perfect holiday in South Tyrol – whether wellness, hiking, skiing or culinary experiences.",
-        "it": "Scoprite le nostre offerte stagionali per la vostra vacanza perfetta in Alto Adige – che sia wellness, escursioni, sci o esperienze culinarie."
+        "de": "Entdecken Sie unsere speziell zusammengestellten Angebote für unvergessliche Erlebnisse",
+        "en": "Discover our specially curated offers for unforgettable experiences",
+        "it": "Scopri le nostre offerte speciali per esperienze indimenticabili"
       }
     },
     "rooms": {
@@ -538,14 +561,14 @@
         "it": "CAMERE & SUITE"
       },
       "title": {
-        "de": "Unsere Unterkünfte",
-        "en": "Our Accommodations",
-        "it": "I Nostri Alloggi"
+        "de": "Luxuriöse Unterkünfte",
+        "en": "Luxury Accommodations",
+        "it": "Alloggi di Lusso"
       },
       "description": {
-        "de": "Komfortable Zimmer und Suiten mit Blick auf die Berge. Moderne Ausstattung und traditioneller Südtiroler Charme vereinen sich zu einem einzigartigen Wohnerlebnis.",
-        "en": "Comfortable rooms and suites with mountain views. Modern amenities and traditional South Tyrolean charm combine to create a unique living experience.",
-        "it": "Camere e suite confortevoli con vista sulle montagne. Comfort moderni e fascino tradizionale altoatesino si uniscono per un'esperienza abitativa unica."
+        "de": "Elegante Zimmer und Suiten mit außergewöhnlichem Komfort und atemberaubenden Ausblicken",
+        "en": "Elegant rooms and suites with exceptional comfort and breathtaking views",
+        "it": "Camere e suite eleganti con comfort eccezionale e viste mozzafiato"
       },
       "tabs": {
         "all": {

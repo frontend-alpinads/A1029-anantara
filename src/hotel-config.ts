@@ -2,14 +2,14 @@
 // HOTEL_CONFIG - Core hotel identity & contact
 // ============================================
 export const HOTEL_CONFIG = {
-  name: "Hotel Name",
-  shortName: "Hotel",
-  type: "Hotel" as const,
+  name: "Anantara Hotels, Resorts & Spa",
+  shortName: "Anantara",
+  type: "Resort" as const,
 
   location: {
-    street: "Musterstraße 1",
+    street: "",
     postalCode: "IT-39000",
-    city: "Stadt",
+    city: "",
     region: "Südtirol",
     country: "Italien",
     coordinates: {
@@ -19,17 +19,17 @@ export const HOTEL_CONFIG = {
   },
 
   contact: {
-    email: "info@example.com",
+    email: "info@anantara.com",
     phone: {
-      main: { display: "+39 0000 000 000", href: "tel:+390000000000" },
+      main: { display: "", href: "" },
       whatsapp: {
         display: "",
         href: "",
       },
     },
     website: {
-      main: "https://www.example.com",
-      booking: "",
+      main: "https://www.anantara.com/",
+      booking: "https://www.anantara.com/",
     },
   },
 
@@ -67,7 +67,7 @@ export const HOTEL_CONFIG = {
 
   copyright: {
     year: 2026,
-    holder: "Hotel Name",
+    holder: "Anantara Hotels, Resorts & Spa",
   },
 };
 
@@ -76,22 +76,22 @@ export const HOTEL_CONFIG = {
 // ============================================
 export const BOOKING_CONFIG = {
   bookingUrls: {
-    de: "",
-    en: "",
-    it: "",
+    de: "https://www.anantara.com/",
+    en: "https://www.anantara.com/",
+    it: "https://www.anantara.com/",
   },
 
   dates: {
-    minBookingDate: "2026-02-21",
+    minBookingDate: "2026-03-04",
   },
 
   checkIn: {
-    from: "14:00",
+    from: "15:00",
     to: "",
   },
 
   checkOut: {
-    until: "11:00",
+    until: "12:00",
   },
 
   touristTax: {
@@ -122,7 +122,7 @@ export const BOOKING_CONFIG = {
 // TECHNICAL_CONFIG - Dev/deployment settings
 // ============================================
 export const TECHNICAL_CONFIG = {
-  projectId: "hotel-template",
+  projectId: "A1029",
 
   urls: {
     production: "https://example.com",
@@ -134,9 +134,9 @@ export const TECHNICAL_CONFIG = {
   },
 
   email: {
-    from: "info@example.com",
-    replyTo: "info@example.com",
-    transactional: "hotel@updates.example.com",
+    from: "noreply@example.com",
+    replyTo: "info@anantara.com",
+    transactional: "anantarahotelsresortsspa@updates.example.com",
     assetsBaseUrl: "https://example.com",
   },
 
@@ -155,41 +155,29 @@ export const SEO_CONFIG = {
 
   home: {
     de: {
-      title: "Hotel Name - Urlaub in Südtirol",
-      description:
-        "Willkommen im Hotel Name in Südtirol. Genießen Sie Ihren Urlaub mit Wellness, Frühstück und traumhaftem Blick auf die Dolomiten.",
-      ogTitle: "Hotel Name - Urlaub in Südtirol",
-      ogDescription:
-        "Hotel Name: Ihr Urlaubsziel in Südtirol mit Wellness und Frühstück.",
+      title: "Anantara Hotels, Resorts & Spa | Luxuriöse Resorts Weltweit",
+      description: "Entdecken Sie luxuriöse Resorts und Spa-Erlebnisse von Anantara an den schönsten Orten der Welt. Exquisite Küche, preisgekrönte Spas und außergewöhnlicher Service erwarten Sie.",
+      ogTitle: "Anantara Hotels, Resorts & Spa | Luxuriöse Resorts Weltweit",
+      ogDescription: "Entdecken Sie luxuriöse Resorts und Spa-Erlebnisse von Anantara an den schönsten Orten der Welt.",
       ogLocale: "de_DE",
     },
     en: {
-      title: "Hotel Name - Holiday in South Tyrol",
-      description:
-        "Welcome to Hotel Name in South Tyrol. Enjoy your holiday with wellness, breakfast and stunning views of the Dolomites.",
-      ogTitle: "Hotel Name - Holiday in South Tyrol",
-      ogDescription:
-        "Hotel Name: Your holiday destination in South Tyrol with wellness and breakfast.",
+      title: "Anantara Hotels, Resorts & Spa | Luxury Resorts Worldwide",
+      description: "Discover luxury resorts and spa experiences by Anantara in the world's most beautiful locations. Exquisite cuisine, award-winning spas, and exceptional service await you.",
+      ogTitle: "Anantara Hotels, Resorts & Spa | Luxury Resorts Worldwide",
+      ogDescription: "Discover luxury resorts and spa experiences by Anantara in the world's most beautiful locations.",
       ogLocale: "en_US",
     },
     it: {
-      title: "Hotel Name - Vacanza in Alto Adige",
-      description:
-        "Benvenuti all'Hotel Name in Alto Adige. Godetevi la vostra vacanza con wellness, colazione e vista mozzafiato sulle Dolomiti.",
-      ogTitle: "Hotel Name - Vacanza in Alto Adige",
-      ogDescription:
-        "Hotel Name: La vostra destinazione di vacanza in Alto Adige con wellness e colazione.",
+      title: "Anantara Hotels, Resorts & Spa | Resort di Lusso in Tutto il Mondo",
+      description: "Scopri i resort di lusso e le esperienze spa di Anantara nei luoghi più belli del mondo. Cucina raffinata, spa pluripremiate e servizio eccezionale vi aspettano.",
+      ogTitle: "Anantara Hotels, Resorts & Spa | Resort di Lusso in Tutto il Mondo",
+      ogDescription: "Scopri i resort di lusso e le esperienze spa di Anantara nei luoghi più belli del mondo.",
       ogLocale: "it_IT",
     },
   },
 
-  keywords: [
-    "Hotel Südtirol",
-    "Urlaub Dolomiten",
-    "Holiday South Tyrol",
-    "Vacanza Alto Adige",
-    "Wellness Südtirol",
-  ],
+  keywords: ["Anantara","Luxury Resorts","Spa Hotels","Five Star Hotels","Luxury Travel","Beach Resorts","City Hotels","Wellness Retreats","Gourmet Dining","Luxury Accommodations"],
 };
 
 // ============================================
@@ -270,7 +258,7 @@ export const hotelProfile: HotelProfile = {
     privacyBaseUrl: HOTEL_CONFIG.legal.privacy.de,
   },
   credits: { alpinAdsUrl: TECHNICAL_CONFIG.credits.agencyUrl },
-  logo: {
+   logo: {
     src: HOTEL_CONFIG.branding.logo.main,
     mobileSrc: HOTEL_CONFIG.branding.logo.mobile,
     mobile: HOTEL_CONFIG.branding.dimensions.mobile,
