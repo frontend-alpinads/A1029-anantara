@@ -52,15 +52,18 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  icons: [
-    {
-      url: "https://www.anantara.com/favicon.ico",
-      media: "(prefers-color-scheme: light)",
-    },
-    {
-      url: "https://www.anantara.com/favicon.ico",
-      media: "(prefers-color-scheme: dark)",
-    },]
+  icons: {
+    icon: [
+      {
+        url: "https://assets.anantara.com/image/upload/q_auto,f_auto/media/minor/anantara/images/brandpage/anantara_logo_favicon_32x32.png",
+        media: "(prefers-color-scheme: light)",
+      },
+      {
+        url: "https://assets.anantara.com/image/upload/q_auto,f_auto/media/minor/anantara/images/brandpage/anantara_logo_favicon_32x32.png",
+        media: "(prefers-color-scheme: dark)",
+      },]
+
+  }
 };
 
 export default async function RootLayout({
