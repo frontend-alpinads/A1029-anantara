@@ -10,6 +10,7 @@ const lato = Lato({
   subsets: ["latin"],
   variable: "--font-lato",
   display: "swap",
+  weight: ["400"]
 });
 
 export const metadata: Metadata = {
@@ -51,15 +52,15 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  icon: [
-      {
-        url: "https://www.anantara.com/favicon.ico",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "https://www.anantara.com/favicon.ico",
-        media: "(prefers-color-scheme: dark)",
-      },
+  icons: [
+    {
+      url: "https://www.anantara.com/favicon.ico",
+      media: "(prefers-color-scheme: light)",
+    },
+    {
+      url: "https://www.anantara.com/favicon.ico",
+      media: "(prefers-color-scheme: dark)",
+    },]
 };
 
 export default async function RootLayout({
